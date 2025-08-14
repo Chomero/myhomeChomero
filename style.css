@@ -1,0 +1,40 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgba(30, 30, 30, 0.9);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+}
+
+input, button {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 6px;
+}
+
+input {
+  background: #222;
+  color: white;
+}
+
+button {
+  background: #6200ea;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3700b3;
+}
